@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Default Color Button */
+.btn-primary{
+    font-size: 18px;
+    background-color: #F52C2C;
+    border: 0px;
+    color: #fff;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
+    margin-right: 20px;
+}
+.bg-primary{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    border: 0px;
+    color: #000000;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
+}
+.bg-primary:hover{
+    background-color: #F52C2C;
+    color: #FFFFFF;
+}
+.btn-primary:hover{
+    background-color: #FFF;
+    color: #000000;
+}
+/* Logo Part Styles */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgba(172, 166, 166, 0.5);
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-left: 20px;
+}
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #F52C2C;
+    transition: 01s;
+    -webkit-transition: 01s;
+    -moz-transition: 01s;
+    -ms-transition: 01s;
+    -o-transition: 01s;
+}
+li a:hover{
+    color: #000000;
+    background-color: #fff;
+}
+nav img {
+    width: 200px;
+}
+
+.banner-area{
+    height: 100vh;
+    background-image: url("asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.banner-title {
+    font-size: 90px;
+    color: #fff;
+}
+.banner-title span{
+    color: #F52C2C;
+}
+.banner-description {
+    width: 50%;
+    margin: auto;
+    font-size: 18px;
+    color: #ddd;
+    padding: 20px;
+}
