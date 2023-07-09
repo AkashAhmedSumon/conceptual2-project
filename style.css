@@ -230,6 +230,126 @@ h6 {
   width: 100px;
   padding: 20px;
 }
+/* Appoinment Section Styles */
+
+.appoinment-area {
+  width: 75%;
+  margin: auto;
+  background-image: url(asset/image/team.jpg),linear-gradient(90deg,#e50701ba, #782310d9);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  margin-top: -80px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.appoinment-logo {
+  display: flex;
+  align-items: center;
+  border-right: 2px solid #ddd;
+  width: 19%;
+}
+.appoinment-logo img{
+  width: 100px;
+  padding: 10px;
+}
+h6.appoinment-content {
+  color: #fff;
+}
+
+h1.appoinment-title {
+  color: #fff;
+  margin-top: 5px;
+}
+
+.apponiment-description {
+  width: 40%;
+  margin-left: 20px;
+  color: #fff;
+}
+.appoinment-button button {
+  background: #fff;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+/* Blog Section Styles */
+.blog-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1.blog-title {
+  font-size: 50px;
+  padding: 10px;
+}
+
+p.blog-description {
+  font-size: 22px;
+  width: 50%;
+  margin: auto;
+}
+
+.blog-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.blog-blox {
+  width: 24%;
+  height: auto;
+  margin: 20px;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+
+.blog-blox img {
+  width: 100%;
+}
+
+h1.blog-text-title {
+  font-size: 30px;
+  color: #fff;
+  padding: 10px;
+}
+
+p.blog-text-decription {
+  color: #fff;
+  padding: 0px 10px;
+}
+
+.blog-blox anchor {
+  color: red;
+  display: block;
+}
+
+.bg-primary anchor {
+  color: red;
+  display: block;
+}
+
+a.bg-primary.anchor {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  background: brown;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+
+
+
+
 
 /* Footer Section Style */
 
